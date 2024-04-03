@@ -16,13 +16,16 @@
 
       This command reads the `requirements.txt` file and installs all the Python libraries listed there.
 
-   3. **Environment Variables**: The application uses environment variables for configuration, such as the OpenAI API key. Make sure to create a `.env` file in the root directory of your project and add your OpenAI API key like so:
+      3. **Environment Variables**: The application uses environment variables for configuration, such as the OpenAI API key and TMDb API key. Make sure to create a `.env` file in the root directory of your project and add your API keys like so:
 
-      ```
-      OPENAI_API_KEY=your_api_key_here
-      ```
+    ```plaintext
+    OPENAI_API_KEY=your_openai_api_key_here
+    TMDB_API_KEY=your_tmdb_api_key_here
+    ```
 
-      Replace `your_api_key_here` with your actual OpenAI API key.
+    Replace `your_openai_api_key_here` with your actual OpenAI API key and `your_tmdb_api_key_here` with your TMDb API key.
+
+    These API keys are necessary for the application to function properly and access external services. The OpenAI API key is used for generating text-based content, while the TMDb API key is used for fetching movie data and generating visualizations.
 
    ### Running Cinebot
 
@@ -33,4 +36,9 @@
    ```
 
    This command starts the Streamlit server and opens the Cinebot application in your default web browser. You're now ready to interact with Cinebot and explore the world of cinema through an engaging chat interface.
+   
+![image](https://github.com/tabbba/CINEBOT/assets/130760858/113b8e55-42a0-43e6-a345-c232104bdbc2)
+![Uploading image.png…]()
+
+
 
