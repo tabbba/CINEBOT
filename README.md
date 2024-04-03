@@ -38,7 +38,7 @@
    This command starts the Streamlit server and opens the Cinebot application in your default web browser. You're now ready to interact with Cinebot and explore the world of cinema through an engaging chat interface.
    
 ![image](https://github.com/tabbba/CINEBOT/assets/130760858/113b8e55-42a0-43e6-a345-c232104bdbc2)
-![Uploading image.png…]()
+![image](https://github.com/tabbba/CINEBOT/assets/130760858/6208f91c-cc7d-4328-92e2-99b5320995c7)
 
 
 
